@@ -21,7 +21,7 @@ https://github.com/tooling/book-of-modern-frontend-tooling
 http://gulpjs.com/
 https://github.com/johnthethird/react-starter-template
 
-Oh, btw I use nvm and I most definitely 'use v.11.12'. v.11.13 has problems. Btw I think React is cool:
+Oh, btw I use nvm and I most definitely 'use v.11.12'. v.11.13 has problems. And I think React is cool:
 
 https://github.com/eggheadio/egghead-react-flux-example
 
@@ -29,6 +29,7 @@ I'm just not quite ready for it yet.
 
 ## If you're like me and are just re-starting-out
 
+```sh
 install node
 npm install -g nvm
 npm install -g gulp
@@ -39,3 +40,4 @@ cd gulp-webpack-coffee-jade-stylus-starter
 npm install
 gulp dev
 
+```
