@@ -1,9 +1,9 @@
 gulp-webpack-coffee-jade-stylus-starter
 =======================================
 
-took me a day to figure out how this stuff works.. in case others are interested
+Took me a day to figure out how this stuff works.. in case others are interested
 
-based on https://github.com/johnthethird/react-starter-template
+Based on https://github.com/johnthethird/react-starter-template
 
 This is so I can use stylus and jade, which are awesome with livereload. Can modify the whole DOM with the flick of a single line in vim (how it should be).
 
@@ -31,13 +31,12 @@ I'm just not quite ready for it yet.
 
 ```sh
 install node
-npm install -g nvm
-npm install -g gulp
 nvm install 0.11.12
 nvm use 0.11.12
+npm install -g nvm
+npm install -g gulp
 git clone https://github.com/tmsh/gulp-webpack-coffee-jade-stylus-starter.git
 cd gulp-webpack-coffee-jade-stylus-starter
 npm install
 gulp dev
-
 ```
