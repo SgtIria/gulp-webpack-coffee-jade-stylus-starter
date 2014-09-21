@@ -26,3 +26,16 @@ Oh, btw I use nvm and I most definitely 'use v.11.12'. v.11.13 has problems. Btw
 https://github.com/eggheadio/egghead-react-flux-example
 
 I'm just not quite ready for it yet.
+
+## If you're like me and are just re-starting-out
+
+install node
+npm install -g nvm
+npm install -g gulp
+nvm install 0.11.12
+nvm use 0.11.12
+git clone https://github.com/tmsh/gulp-webpack-coffee-jade-stylus-starter.git
+cd gulp-webpack-coffee-jade-stylus-starter
+npm install
+gulp dev
+
