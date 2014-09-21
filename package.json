@@ -1,0 +1,60 @@
+{
+  "name": "gulp-webpack-coffee-jade-stylus-starter",
+  "version": "0.0.1",
+  "description": "just getting started",
+  "author": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "test": "karma start test/karma.conf.js"
+  },
+  "keywords": [
+    "gulp",
+    "template"
+  ],
+  "dependencies": {
+    "coffee-script": "~1.7.1",
+    "expando": "0.0.1",
+    "jquery": "2.1.1"
+  },
+  "devDependencies": {
+    "bower": "~1.3.5",
+    "ecstatic": "~0.5.3",
+    "express": "^4.9.4",
+    "fs": "0.0.2",
+    "gulp": "~3.8.1",
+    "gulp-autoprefixer": "0.0.7",
+    "gulp-clean": "^0.3.1",
+    "gulp-debug": "^1.0.1",
+    "gulp-jade": "~0.6.0",
+    "gulp-livereload": "~2.1.0",
+    "gulp-minify-css": "~0.3.5",
+    "gulp-plumber": "~0.6.3",
+    "gulp-rename": "~1.2.0",
+    "gulp-rev": "^1.1.0",
+    "gulp-sass": "^0.7.3",
+    "gulp-streamify": "0.0.5",
+    "gulp-stylus": "^1.3.3",
+    "gulp-uglify": "~0.1.0",
+    "gulp-util": "~2.2.17",
+    "gulp-watch": "^1.0.7",
+    "gulp-webpack": "^0.3.0",
+    "jade-loader": "^0.6.1",
+    "karma": "~0.12.21",
+    "karma-chrome-launcher": "~0.1.4",
+    "karma-coffee-preprocessor": "~0.2.1",
+    "karma-jasmine": "~0.1.5",
+    "tiny-lr": "^0.1.4",
+    "vinyl-source-stream": "~0.1.1",
+    "webpack": "^1.4.1-beta1",
+    "gulp-sourcemaps": "^1.2.2"
+  },
+  "browser": {},
+  "browserify-shim": {},
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  }
+}
