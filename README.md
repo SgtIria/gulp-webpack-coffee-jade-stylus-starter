@@ -31,9 +31,9 @@ I'm just not quite ready for it yet.
 
 ```sh
 install node
+npm install -g nvm
 nvm install 0.11.12
 nvm use 0.11.12
-npm install -g nvm
 npm install -g gulp
 git clone https://github.com/tmsh/gulp-webpack-coffee-jade-stylus-starter.git
 cd gulp-webpack-coffee-jade-stylus-starter
