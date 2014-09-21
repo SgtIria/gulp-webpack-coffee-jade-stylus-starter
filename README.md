@@ -7,13 +7,13 @@ based on https://github.com/johnthethird/react-starter-template
 
 This is so I can use stylus and jade, which are awesome with livereload. Can modify the whole DOM with the flick of a single line in vim (how it should be).
 
-This also so I can use browserify-ish stuff at la webpack. I love substack's work/philosophy/everything, but webpack just works for requiring jade files from within coffeescript.
+This is also so I can use browserify-ish stuff at la webpack. I love substack's work/philosophy/everything, but webpack just works for requiring jade files from within coffeescript.
 
-This also allows me to use coffeescript.
+This is also allows me to use coffeescript. Again, things kind of breakdown and are hard to hack if you have require jade IN the coffeescript. And I am resisting reading more about how to figure that out... I was able to get it to work with webpack without gulp and then I just switched to webpack.
 
-See that entryJade gulp task? That's because i have jade files that house the entry point into the rest of the browserify/webpack bundle. So I need those too.
+See that entryJade gulp task? That's because I have jade files that house the entry point into the rest of the browserify/webpack bundle. So I need those too.
 
-Customize all you want. Seems good enough. And I can finally require('./something.jade') in coffeescript! I've been grinding on that my whole life these past 24 hours, having only recently gotten back into web development. 
+Customize all you want. Seems good enough. And I can finally require('./something.jade') in coffeescript. I've been grinding on that my whole life these past 24 hours, having only recently gotten back into FE development. 
 
 Some links:
 
@@ -25,4 +25,4 @@ Oh, btw I use nvm and I most definitely 'use v.11.12'. v.11.13 has problems. Btw
 
 https://github.com/eggheadio/egghead-react-flux-example
 
-I'm just not quite using it yet. Just trying to get started (but I really think jade is important and coffeescript is just freakin more readable)!
+I'm just not quite ready for it yet.
